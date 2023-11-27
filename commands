@@ -1,0 +1,15 @@
+pwd 
+mkdir vib_directory
+ls
+touch new_file.txt
+ls
+touch file.txt
+ls
+cat new_file.txt
+echo "hello this is the content in vib_file.txt">> vib_file.txt
+cat vib_file.txt
+cat file.txt
+cp vib_file.txt file.txt
+cat vib_file.txt 
+echo "after copying contents from vib_file i am adding a new line into file.text">> file.txt
+cat file.txt
